@@ -21,7 +21,6 @@ class Stack:#Define the class 'Stack'
         else: #If the stack is empty
             print("\n\t Error: Stack is empty. Cannot perform pop.")  #Error if stack is empty
             return None #Return nothing
-
     #Peek operation to view the top element of the stack without removing it
     def peek(self): #Function to peek into the stack
         #Check if the stack is not empty
