@@ -1,4 +1,4 @@
-#Create a function to remove duplicate elements from a list while maintaining the order.
+#2.5 Create a function to remove duplicate elements from a list while maintaining the order.
 def remove_duplicates(lst): #Defining a function to remove the duplicates from a list
     unique_list=[] #Creating an empty list to store unique elements
     for item in lst: #Iterating through the given list
