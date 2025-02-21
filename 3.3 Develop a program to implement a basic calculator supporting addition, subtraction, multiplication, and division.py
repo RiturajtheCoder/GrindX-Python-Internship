@@ -21,7 +21,6 @@ while True:  #Starting an infinite loop to allow multiple calculations
             else: #if the denominator is not 0
                 result=num1/num2  #Performing division
                 print(f"\n\t Result: {num1} / {num2} = {result}")  #Displaying the result
-
         else:  #Handling invalid operator input
             print("\n\t Invalid operator! Please enter one of +, -, *, /.")  #Displaying error message
     except ValueError:  #Handling invalid numerical input
