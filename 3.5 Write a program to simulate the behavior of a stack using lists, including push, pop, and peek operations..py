@@ -65,7 +65,6 @@ if __name__ == "__main__": #Checking if it is the main program
             stack.pop()  #Call pop method
         elif(choice=='3'):  #Peek operation
             stack.peek()  #Call peek method
-
         elif(choice=='4'):  #Display stack elements
             stack.display()  #Call display method
         elif (choice=='5'):  #Exit the program
