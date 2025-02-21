@@ -20,7 +20,6 @@ def get(): #Creating a function to get the dictionary values
         key, value=pair.split('=')  #Split each pair by the equal sign to separate key and value
         u[key.strip()] = float(value.strip())  #Convert the value to float and store in the dictionary, strip removes leading/trailing whitespaces
     return u  #Return the created dictionary
-
 while True:  #Infinite loop to allow continuous dictionary merging
     try: #Try block to handle exceptions
         print("\n\t Merging two dictionaries")  #Print message indicating the action
